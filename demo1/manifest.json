@@ -1,0 +1,18 @@
+{
+   "manifest_version": 2,  
+   "name": "画板",
+   "version": "1.0",
+   "description": "随时随地画一画",
+   "icon": {
+      "128": "img/icon1.png",
+      "48": "img/icon1.png",
+      "16": "img/icon1.png"
+   },
+   "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": "img/icon1.png"
+   },
+   "permissions": [
+     "storage"
+   ]
+}
